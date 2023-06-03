@@ -8,5 +8,7 @@ class Program
         TOYOTA.DoCar(new SwapV8());
         Car NISSAN = new Car();
         NISSAN.DoCar(new SwapV6());
+        Car Daewoo = new Car();
+        Daewoo.DoCar(new SwapV8());
     }
 }
